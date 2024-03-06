@@ -1,0 +1,255 @@
+
+
+
+
+
+
+
+
+
+
+
+
+    *, body{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+       
+    }
+    
+    
+    
+    #outer_Container{
+        display: flex;
+        width: 549px;
+        height: 830px;
+        padding: 20px 64px 64px 64px;
+        gap: 32px;
+        background-color: #FFFFFF;
+        gap: 100px;
+        /* position: relative; */
+      
+    
+    }
+    
+    #inner_One h2{
+         color: #006D48;
+    }
+    
+    #inner_One_One{
+        width: 421px;
+    }
+    
+    #inner_One h1{
+        font-family: "Sora", sans-serif;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 60px;
+        letter-spacing: -1.5%;
+        margin-top: 2rem;
+    
+    }
+    #inner_One_One p{
+        font-family: "Public Sans", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #3B4752;
+    }
+    
+    #inner_One_Two{
+        gap: 24px;
+        margin-top: 2rem;
+    }
+    
+    .label_Style{
+        font-family: "Public Sans", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        color: #3B4752;
+    
+    
+    }
+    
+    .input_Style{
+        height: 40px;
+        width: 421px;
+        border-radius: 2px;
+        border: 1px solid grey;
+        padding: 10px 12px 10px 12px;
+        gap: 8px;
+        background-color: #F9FAFB;
+        font-size: 16px;
+    }
+    
+    .checkbox_Style{
+        width: 24px;
+        height: 24px;
+        background-color: #28F490;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .checkbox_Style:checked{
+        background-color:#003F2A;
+    }
+    
+    .input_Margin{
+        margin-bottom: 1rem;
+    }
+    
+    #check_Div_Style{
+        height: 24px;
+        gap: 12px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-family: "Public Sans", sans-serif;
+    
+    }
+    
+    .underline_Bold{
+        text-decoration: underline;
+        font-weight: bold
+    }
+    
+    .green_Btn_Style{
+         width: 421px;
+         height: 48px;
+         border-radius: 2px;
+         border: 2px solid #00E687;
+         padding: 14px 12px 14px 12px;
+         gap: 10px;
+         background-color: #00E687;
+         font-family: "Sora", sans-serif;
+         font-size: 14px;
+         line-height: 18px;
+         text-align: center;
+         font-weight: 460;
+         margin-bottom: 1rem;
+    }
+    
+    .white_Btn_Style{
+        width: 421px;
+        height: 48px;
+        border-radius: 2px;
+        border: 1px solid #CFD8E1;
+        padding: 14px 12px 14px 12px;
+        gap: 10px;
+        background-color: #FFFFFF;
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: 460;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    #statement_Style{
+        font-family: "Sora", sans-serif;
+        font-weight: 360;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+    }
+    
+    #google_Icon{
+        width: 20px;
+        height: 20px;
+      
+    }
+    
+    #logo{
+        height: 44px;
+        width: 177px;
+    }
+    
+    
+    #inner_two{
+        height: 650px;
+        width: 870px; 
+        /* position: absolute; */
+    }
+    
+    #inner_two img{
+    
+       height: 650px;
+       width: 870px;
+    
+    }
+    
+    #img_text{
+          position: absolute;
+         top: 60%;
+         left: 45%;
+         
+         font-size: 24px;
+         font-family: "Public Sans", sans-serif;
+         width:700px ;
+    
+         
+    }
+    
+    #img_text p{
+        color: whitesmoke;
+        font-family: "Style Script", cursive;
+        font-size: 30px;
+    
+    }
+    
+    .spacing{
+        margin-bottom: 1rem;
+        color: #00E687;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+ /* Styles for small devices */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    #outer_Container{
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+
+
+    
+    
+    }
+
+    #inner_One{
+        position: absolute;
+        top: 110%;
+   }
+   
+
+    #inner_two{
+        height: 650px;
+        width: 500px;
+        position: absolute;
+        
+    
+
+    }
+    
+    #inner_two img{
+    
+       height: 650px;
+       width: 500px;
+    
+    }
+  }
+
+
+
